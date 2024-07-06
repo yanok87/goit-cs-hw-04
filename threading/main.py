@@ -60,7 +60,8 @@ def multithreading_search(file_paths, keywords):
 
 
 # Виклик функції
-file_paths = ["file1.txt", "file2.txt", "file3.txt"]  # Ваші файли
-keywords = ["keyword1", "keyword2", "keyword3"]  # Ваші ключові слова
-results_threading = multithreading_search(file_paths, keywords)
-print(results_threading)
+if __name__ == "__main__":
+    file_paths = ["file1.txt", "file2.txt", "file3.txt"]  # Ваші файли
+    keywords = ["keyword1", "keyword2", "keyword3"]  # Ваші ключові слова
+    results_threading = multithreading_search(file_paths, keywords)
+    print(results_threading)
